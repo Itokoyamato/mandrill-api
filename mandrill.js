@@ -65,6 +65,7 @@
               json = JSON.parse(json);
             } catch (error) {
               e = error;
+              console.log(json);
               json = {
                 status: 'error',
                 name: 'GeneralError',
